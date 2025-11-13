@@ -10,21 +10,8 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                // Builds the Dockerfile from this project's folder
+                // Build the image and give it a name
                 sh 'docker buildx build --network=host -t my-atm-app --load .'
-            }
-        }
-
-        stage('Run App') {
-            steps {
-                script {
-                    // This cleans up the container from the *last* run
-                    sh 'docker rm my-atm-app-run || true'
-
-                    // This runs your new container and waits for it to finish.
-                    // The app's output will appear in this build log.
-                    sh 'docker run -i --name my-atm-app-run my-atm-app || true'
-                }
             }
         }
     }
