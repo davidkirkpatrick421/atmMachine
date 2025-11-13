@@ -34,6 +34,7 @@ Default PIN is 1234.
 - [ ] Refactoring and setup of better OOP design.
     - [x] Added Account class with better encapsulation and SRP of methods
     - [x] Encapsulation of classes and methods like PIN auth and validation for security.
+    - [x] Created separate methods for encapsulated functionality..
     - [x] Validation of input for deposit and withdrawal.
     - [ ] Create a separate class for the ATM menu system.
 - [ ] More robust error handling.
