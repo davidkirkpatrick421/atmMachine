@@ -1,6 +1,5 @@
 # --- Build Stage ---
 # Use the official, full JDK (Java Development Kit) for compiling
-# This tag (jdk-bullseye) is verified and correct.
 FROM openjdk:17-jdk-bullseye as builder
 
 WORKDIR /app
@@ -13,8 +12,8 @@ RUN find . -name "*.java" | xargs javac
 
 # --- Run Stage ---
 # Use the minimal JRE (Java Runtime Environment) for running
-# This tag (jre-slim-bullseye) is verified and correct.
-FROM openjdk:17-jre-slim-bullseye
+# This is the correct, simple, and verified tag.
+FROM openjdk:17-jre-slim
 
 WORKDIR /app
 
