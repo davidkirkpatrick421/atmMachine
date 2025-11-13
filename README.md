@@ -21,7 +21,7 @@ Default PIN is 1234.
 - Security: 3-attempt limit on PIN entry
 - Basic menu system with repeating menu loop
 - Balance checking
-- Deposit/withdrawal (if you have these)
+- Deposit/withdrawal with validation (cannot withdraw more than balance)
 
 ### **Future Implementations**
 
