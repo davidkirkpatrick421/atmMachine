@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Builds the Dockerfile from this project's folder
                 // and names the image 'my-atm-app'
-                sh 'docker build -t my-atm-app .'
+                sh 'docker build --dns=8.8.8.8 -t my-atm-app .'
             }
         }
 
