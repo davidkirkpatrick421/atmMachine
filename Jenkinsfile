@@ -11,7 +11,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 // Builds the Dockerfile from this project's folder
-                sh 'docker build -t my-atm-app .'
+                sh 'docker buildx build --network=host -t my-atm-app --load .'
             }
         }
 
