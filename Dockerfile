@@ -1,6 +1,6 @@
 # --- Build Stage ---
 # Use an official Java (JDK) image to compile the code
-FROM openjdk:17-jdk-slim as builder
+FROM openjdk:17-jdk-slim-bullseye as builder
 
 # Set the working directory
 WORKDIR /app
