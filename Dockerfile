@@ -1,25 +1,15 @@
 # --- Build Stage ---
-# Use the official, full JDK (Java Development Kit) for compiling
-FROM openjdk:17-jdk-bullseye as builder
+# Use the Eclipse Temurin JDK (full development kit)
+FROM eclipse-temurin:17-jdk-jammy as builder
 
 WORKDIR /app
-
-# Copy all your project files into the container
 COPY . .
-
-# Compile your Java file(s)
 RUN find . -name "*.java" | xargs javac
 
 # --- Run Stage ---
-# Use the minimal JRE (Java Runtime Environment) for running
-# This is the correct, simple, and verified tag.
-FROM openjdk:17-jre-slim
+# Use the minimal Eclipse Temurin JRE (runtime only)
+FROM eclipse-temurin:17-jre-jammy
 
 WORKDIR /app
-
-# Copy *only* the compiled .class files from the builder stage
 COPY --from=builder /app .
-
-# The command to run when the container starts
-# (Change 'ATMMachine' to your main class name)
 CMD ["java", "ATMMachine"]
