@@ -28,9 +28,12 @@ Default PIN is 1234.
 
 ### **Future Implementations**
 
-- Refactoring and setup of better OOP design.
-- Encapsulation of classes and methods like PIN auth for security.
-- More robust error handling.
-- Adding arrayList for transaction history? or other relevant data.
-- Consider ways of implementing a GUI and improving the user experience (arrow keys to navigate, etc.)
-- Consider how to integrate with a database.
+- [ ] Refactoring and setup of better OOP design.
+  - [x] Added Account class with better encapsulation and SRP of methods
+  - [x] Encapsulation of classes and methods like PIN auth and validation for security.
+  - [x] Validation of input for deposit and withdrawal.
+  - [ ] Create a separate class for the ATM menu system.
+- [ ] More robust error handling.
+- [ ] Adding arrayList for transaction history? or other relevant data.
+- [ ] Consider ways of implementing a GUI and improving the user experience (arrow keys to navigate, etc.)
+- [ ] Consider how to integrate with a database.
