@@ -14,7 +14,7 @@ RUN find . -name "*.java" | xargs javac
 
 # --- Run Stage ---
 # Use a minimal Java (JRE) image to run the app
-FROM openjdk:17-jre-slim
+FROM openjdk:17-jre-slim-bullseye
 
 WORKDIR /app
 
