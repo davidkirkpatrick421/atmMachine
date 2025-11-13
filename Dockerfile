@@ -20,4 +20,4 @@ WORKDIR /app
 COPY --from=builder /app .
 
 # Run your main class (change ATMMachine if needed)
-CMD ["java", "ATMMachine"]
+CMD ["java", "-cp", "src", "atmMachine.ATMMachine"]
