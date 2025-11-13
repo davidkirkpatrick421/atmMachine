@@ -8,7 +8,10 @@ It was previously created in class, but I'm now using it to test my CI/CD linux 
 pipeline. I will be adding further revisions to the program using git control and developing the ATM as I learn more in
 the Java programming module.
 
-**Live demo:** (***Coming Soon***)
+**Video Demo:** https://youtu.be/9x73ZXhcqXY
+
+_**I attempted to host the demo live on the server and use cloudtunnel to allow secure public access, but it didn't work,
+due to java command line programs not being compatible with runtime in browser as I learnt._
 
 Default PIN is 1234.
 
