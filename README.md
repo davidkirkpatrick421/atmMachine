@@ -13,6 +13,9 @@ the Java programming module.
 _**I attempted to host the demo live on the server and use cloudtunnel to allow secure public access, but it didn't work,
 due to java command line programs not being compatible with runtime in browser as I learnt._
 
+*I will be attempting to develop this and implement a REST API microservice in the future so that the java program can be
+hosted on a server and accessed via a web browser.**.*
+
 Default PIN is 1234.
 
 ### **Current Features**
