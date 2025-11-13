@@ -37,6 +37,10 @@ Default PIN is 1234.
     - [x] Created separate methods for encapsulated functionality..
     - [x] Validation of input for deposit and withdrawal.
     - [ ] Create a separate class for the ATM menu system.
+- [ ] Creating JUnit tests.
+  - [x] Unit tests for Account class.
+  - [ ] Unit tests for ATM class.
+  - [ ] Unit tests for ATMMachine class.
 - [ ] More robust error handling.
 - [ ] Adding arrayList for transaction history? or other relevant data.
 - [ ] Consider ways of implementing a GUI and improving the user experience (arrow keys to navigate, etc.)
