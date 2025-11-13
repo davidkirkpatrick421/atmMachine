@@ -1,19 +1,17 @@
 # --- Build Stage ---
-# Use the official, full JDK to compile your code
-# This tag is verified and correct.
-FROM openjdk:17-jdk-bullseye as builder
+# Use the Eclipse Temurin JDK (full development kit)
+FROM eclipse-temurin:17-jdk-jammy as builder
 
 WORKDIR /app
 
 # Copy all your project files into the container
 COPY . .
 
-# Compile your Java file(s) (our simple project logic)
+# Compile your Java file(s)
 RUN find . -name "*.java" | xargs javac
 
 # --- Run Stage ---
-# Use the Eclipse Temurin JRE (as Claude suggested)
-# This is a verified, working runner image.
+# Use the minimal Eclipse Temurin JRE (runtime only)
 FROM eclipse-temurin:17-jre-jammy
 
 WORKDIR /app
