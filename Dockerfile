@@ -1,6 +1,6 @@
 # --- Build Stage ---
 # Use the Eclipse Temurin JDK (full development kit)
-FROM eclipse-temurin:17-jdk-jammy as builder
+FROM eclipse-temurin:17-jre as builder
 
 WORKDIR /app
 
