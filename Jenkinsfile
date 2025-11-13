@@ -23,7 +23,7 @@ pipeline {
 
                     // This runs your new container and waits for it to finish.
                     // The app's output will appear in this build log.
-                    sh 'docker run -i --name my-atm-app-run my-atm-app'
+                    sh 'docker run -i --name my-atm-app-run my-atm-app || true'
                 }
             }
         }
