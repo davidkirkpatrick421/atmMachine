@@ -17,4 +17,4 @@ WORKDIR /app
 COPY --from=builder /app .
 
 # Run your main class (This is the final working command)
-CMD ["java", "-cp", "src", "atmMachine.ATMMachine"]
+CMD ["java", "-cp", "src", "atmMachine.ATMSystem"]
