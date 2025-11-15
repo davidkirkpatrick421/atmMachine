@@ -32,7 +32,7 @@ public class Account {
     /**
      * Used in constructor to check if pin to set is a valid input (4 digits and greater than 0)
      *
-     * @param pin
+     * @param pin - pin to check
      * @return a true or false to method call in constructor
      */
     private boolean isValidPin(int pin) {
@@ -51,7 +51,7 @@ public class Account {
     }
 
     /**
-     * method to return balance of an account
+     * Method to return balance of an account
      *
      * @return a double value - balance
      */
@@ -62,7 +62,7 @@ public class Account {
     /**
      * takes user input and adds to balance
      *
-     * @param amount
+     * @param amount - amount to add to balance
      * @return a true or false, if the user-input amount is greater than 0
      */
     public boolean deposit(double amount) {
@@ -76,7 +76,7 @@ public class Account {
     /**
      * takes user input and subtracts from balance
      *
-     * @param amount
+     * @param amount - amount to subtract from balance
      * @return a true or false, if the user-input amount is less than or equal to the balance
      */
     public boolean withdraw(double amount) {
