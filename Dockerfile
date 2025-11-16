@@ -5,7 +5,9 @@ FROM eclipse-temurin:17-jdk as builder
 WORKDIR /app
 COPY . .
 # Compile your Java file(s)
-RUN find . -name "*.java" | xargs javac
+# RUN find . -name "*.java" | xargs javac
+# This command finds only main app .java files to ignore JUnit test for now
+RUN find src -name "*.java" | xargs javac
 
 # --- Run Stage ---
 # Use the Official Eclipse Temurin JRE for running.
