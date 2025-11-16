@@ -8,7 +8,7 @@ It was previously created in class, but I'm now using it to test my CI/CD linux 
 pipeline. I will be adding further revisions to the program using git control and developing the ATM as I learn more in
 the Java programming module.
 
-**Video Demo:** https://youtu.be/9x73ZXhcqXY
+**Video Demo:** https://youtu.be/Y_87BCSaLD4
 
 ##### Tech stack:
 - Java, IntelliJ IDEA
