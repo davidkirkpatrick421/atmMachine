@@ -1,10 +1,67 @@
-# --- ATMMachine Java Project ---
+# --- ATMM Banking System - Java Project ---
 
 *Updated 22 Nov 25*
 
-ATM Banking System - *STATUS: IN PROGRESS*
-This version is being refactored from commandline to a spring Boot REST API. Previous version is available in '
-legacy_backup/'.
+This project evolved over the course of the semester, starting as basic Java logic and rudimentary UI. The previous
+iteration was a re-design of OOP and secure encapsulation. It has now been refactored into a Springboot REST API
+microservice. The Java program is now hosted on a home Linux server, running on a re-purposed MacBook, and accessed via
+a web browser. The program is interacted with via Swagger UI which shows the REST API endpoints and gives a live demo of
+the functionality live.
+
+##### Tech stack:
+
+- Java, IntelliJ IDEA
+- Linux network server deployment
+- Spring Boot, Maven, PostgreSQL (SQL )
+- Docker, Jenkins, Gitea
+- PiHole DNS, NginX proxy, Cloudflare tunnel, Swagger UI
+
+## **Live Demo:** https://atm.dkirkpatrick.co.uk/swagger-ui/index.html
+
+*Uses a persistent PostgreSQL database so a new account should be used for each demo*
+
+
+### Instructions for Demo:
+
+1. Follow the demo link above.
+2. Go to 'POST /api/atm/accounts' and click 'Try it out'.
+3. Copy this JSON into the request body - Choose your own PIN and initial balance or use the defaults:
+
+   {
+   "pin": 1234,
+   "balance": 100.00
+   }
+4. Click 'Execute'. **_Copy or remember the ID from response - this is your account ID._**
+5. 
+5. Go to 'GET /api/atm/accounts/{id}' and click 'Try it out'.
+6. Paste your account ID into the path parameter and click 'Execute'. You should see your account details.
+
+7. Go to 'POST /api/atm/accounts/{id}/withdraw' and click 'Try it out'.
+8. Paste your account ID into the path parameter and enter a withdrawal amount into the request body.
+9. Click 'Execute'. You should see your new balance.
+
+10. Test validation by entering an incorrect PIN or a negative amount.
+
+11. Go to 'POST /api/atm/accounts/{id}/deposit' and click 'Try it out'.
+12. Paste your account ID into the path parameter and enter a deposit amount into the request body.
+13. Click 'Execute'. You should see your new balance.
+
+### System Architecture:
+Replaces a command line interface with a web browser interface with functionality to create, read, update and delete
+ATM accounts in persistent database. Refactored structure allows for easy addition of new features and better
+maintainability, as well mirroring a more realistic banking system. All logic is @transactional, so no data is lost if
+an error occurs and the persisten database is @versioned to allow for concurrency control so that multiple users can
+access the same data simultaneously and repeat transactions are prevented.
+* API Layer - Handles HTTP requests and validation of input data.
+* Service Layer - Handles business logic and transactions.
+* Repository Layer - Handles database interactions and persistence. Usses Spring Data JPA to abstract SQL queries.
+* Database - Persistent PostgreSQL container on the server that stores accounts and transactions.
+
+<br>
+</br>
+<details>
+<summary>Legacy Project README</summary>
+
 
 **Video Demo:** https://youtu.be/Y_87BCSaLD4
 
@@ -57,3 +114,5 @@ Default PIN is 1234 and account balance is £100.
 - [ ] Adding arrayList for transaction history? or other relevant data.
 - [ ] Consider ways of implementing a GUI and improving the user experience (arrow keys to navigate, etc.)
 - [ ] Consider how to integrate with a database for account data and transaction history.
+
+</details>
