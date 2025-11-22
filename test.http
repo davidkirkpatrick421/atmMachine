@@ -1,0 +1,12 @@
+### 1. Create Account
+POST http://localhost:9090/api/atm/accounts
+Content-Type: application/json
+
+{
+  "pin": 1234,
+  "balance": 100.00
+}
+
+### 2. Withdraw Money
+POST http://localhost:9090/api/atm/withdraw?id=1&pin=1234&amount=50.00
+Content-Type: application/json

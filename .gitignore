@@ -1,0 +1,26 @@
+# --- Maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/*.properties
+!**/src/test/resources/*.properties
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- Java ---
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Spring Boot ---
+help.md
+.mvn/wrapper/maven-wrapper.properties
