@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 
 @Service
 public class BankingService {
+
     private final AccountRepository accountRepo;
     private final TransactionRepository transRepo;
 
@@ -15,25 +16,35 @@ public class BankingService {
         this.accountRepo = ar; this.transRepo = tr;
     }
 
-    @Transactional // ACID Compliance: Either both save, or neither saves.
+    // --- WITHDRAW ---
+    @Transactional
     public Account withdraw(Long accountId, Integer pin, BigDecimal amount) {
         Account account = accountRepo.findById(accountId)
                 .orElseThrow(() -> new RuntimeException("Account not found"));
 
-        if (!account.getPin().equals(pin)) {
-            throw new RuntimeException("Invalid PIN");
-        }
+        if (!account.getPin().equals(pin)) throw new RuntimeException("Invalid PIN");
+        if (account.getBalance().compareTo(amount) < 0) throw new RuntimeException("Insufficient Funds");
 
-        if (account.getBalance().compareTo(amount) < 0) {
-            throw new RuntimeException("Insufficient Funds");
-        }
-
-        // 1. Update Balance
         account.setBalance(account.getBalance().subtract(amount));
         accountRepo.save(account);
-
-        // 2. Save History
         transRepo.save(new Transaction(amount, "WITHDRAW", account));
+
+        return account;
+    }
+
+    // --- DEPOSIT  ---
+    @Transactional
+    public Account deposit(Long accountId, BigDecimal amount) {
+        Account account = accountRepo.findById(accountId)
+                .orElseThrow(() -> new RuntimeException("Account not found"));
+
+        if (amount.compareTo(BigDecimal.ZERO) <= 0) {
+            throw new RuntimeException("Deposit must be positive");
+        }
+
+        account.setBalance(account.getBalance().add(amount));
+        accountRepo.save(account);
+        transRepo.save(new Transaction(amount, "DEPOSIT", account));
 
         return account;
     }

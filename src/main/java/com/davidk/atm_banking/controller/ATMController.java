@@ -18,21 +18,28 @@ public class ATMController {
         this.repo = repo;
     }
 
-    // 1. Create Account (Helper for you/Recruiters to set up data)
+    // 1. Create Account (For setup)
     @PostMapping("/accounts")
     public Account create(@RequestBody Account account) {
         return repo.save(account);
     }
 
-    // 2. Withdraw Money
+    // 2. Withdraw
     @PostMapping("/withdraw")
     public Account withdraw(@RequestParam Long id, @RequestParam Integer pin, @RequestParam BigDecimal amount) {
         return service.withdraw(id, pin, amount);
     }
 
-    // 3. Check Balance (Debug)
+    // 3. Deposit
+    @PostMapping("/deposit")
+    public Account deposit(@RequestParam Long id, @RequestParam BigDecimal amount) {
+        return service.deposit(id, amount);
+    }
+
+    // 4. Balance Check
+    // This returns the full JSON: { "id": 1, "balance": 50.00, ... }
     @GetMapping("/{id}")
-    public Account getAccount(@PathVariable Long id) {
-        return repo.findById(id).orElseThrow(() -> new RuntimeException("Not Found"));
+    public Account getAccountBalance(@PathVariable Long id) {
+        return repo.findById(id).orElseThrow(() -> new RuntimeException("Account Not Found"));
     }
 }
