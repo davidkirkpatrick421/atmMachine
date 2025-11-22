@@ -3,7 +3,7 @@
 FROM eclipse-temurin:17-jdk as builder
 
 WORKDIR /app
-COPY . .
+COPY .. .
 # Compile your Java file(s)
 # RUN find . -name "*.java" | xargs javac
 # This command finds only main app .java files to ignore JUnit test for now

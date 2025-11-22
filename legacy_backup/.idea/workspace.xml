@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80f69055-f5d8-44a1-a943-271623ae5b42" name="Changes" comment="Updated README with new demo video for refactored program" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="35OVKxYrsNe6kadnGZvxTUKCyTH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ATMMachine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ATMSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/davidkirkpatrick/Documents/CodeProjects/ATM_Machine/atmMachine/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/davidkirkpatrick/Documents/CodeProjects/ATM_Machine/atmMachine/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="atmMachine" />
+      <recent name="atmMachineTest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Java Scratch">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80f69055-f5d8-44a1-a943-271623ae5b42" name="Changes" comment="" />
+      <created>1762981048944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762981048944</updated>
+      <workItem from="1762981050009" duration="5590000" />
+      <workItem from="1762990075895" duration="85000" />
+      <workItem from="1762990170339" duration="28956000" />
+      <workItem from="1763153793855" duration="284000" />
+      <workItem from="1763161458114" duration="29025000" />
+      <workItem from="1763492721491" duration="1491000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <option name="closed" value="true" />
+      <created>1762988087844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762988087844</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added docker config file for jenkins deployment">
+      <option name="closed" value="true" />
+      <created>1762989631581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762989631581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Jenkinsfile for pipeline setup">
+      <option name="closed" value="true" />
+      <created>1762990358300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762990358300</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added README file for ATM test pipeline">
+      <option name="closed" value="true" />
+      <created>1762991296807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762991296807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix: Corrected Java base image in Dockerfile">
+      <option name="closed" value="true" />
+      <created>1762999385137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762999385137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix: Corrected Java builder image in Dockerfile">
+      <option name="closed" value="true" />
+      <created>1762999822395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762999822395</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix: Corrected Java runner image in Dockerfile">
+      <option name="closed" value="true" />
+      <created>1763000122387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763000122387</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix: Corrected all dockerfile image names">
+      <option name="closed" value="true" />
+      <created>1763000483626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763000483626</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix: Add a DNS flag to docker build command.">
+      <option name="closed" value="true" />
+      <created>1763000729820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763000729820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix: Correct dockerfile images and jenkinsfile build command">
+      <option name="closed" value="true" />
+      <created>1763001093849</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763001093849</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix: Correct dockerfile images">
+      <option name="closed" value="true" />
+      <created>1763001562981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1763001562981</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix: Changed eclipse build/run images Dockerfile">
+      <option name="closed" value="true" />
+      <created>1763001777126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763001777126</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1763001943403</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763001943403</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1763002186389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1763002186389</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated dockerfile">
+      <option name="closed" value="true" />
+      <created>1763002385654</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763002385654</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated dockerfile for correct path src">
+      <option name="closed" value="true" />
+      <created>1763002706567</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1763002706567</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix: run jenkins interactive mode to support scanner">
+      <option name="closed" value="true" />
+      <created>1763002924168</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1763002924168</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fix: run jenkins interactive mode to support scanner">
+      <option name="closed" value="true" />
+      <created>1763003215143</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1763003215143</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated README.md for state of build">
+      <option name="closed" value="true" />
+      <created>1763032123655</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1763032123655</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update pipeline to only build image">
+      <option name="closed" value="true" />
+      <created>1763032471026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1763032471026</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated build for console running in browser">
+      <option name="closed" value="true" />
+      <created>1763034218843</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034218843</updated>
+    </task>
+    <task id="LOCAL-00022" summary="updated build for console running in browser">
+      <option name="closed" value="true" />
+      <created>1763034386275</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034386275</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix: updated build for console running in browser">
+      <option name="closed" value="true" />
+      <created>1763034645690</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034645690</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix: different build image for console running in browser">
+      <option name="closed" value="true" />
+      <created>1763034757822</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034757822</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fix: different build image for console running in browser">
+      <option name="closed" value="true" />
+      <created>1763034883777</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1763034883777</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated README">
+      <option name="closed" value="true" />
+      <created>1763037736598</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1763037736598</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated README with working video demo link of program in local terminal">
+      <option name="closed" value="true" />
+      <created>1763038941715</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1763038941715</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated README with working video demo link of program in local terminal">
+      <option name="closed" value="true" />
+      <created>1763039005023</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1763039005023</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated README with intent for REST API implementation">
+      <option name="closed" value="true" />
+      <created>1763039173828</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1763039173828</updated>
+    </task>
+    <task id="LOCAL-00030" summary="-Dev- Added Account class and updated README">
+      <option name="closed" value="true" />
+      <created>1763050006778</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1763050006778</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated README">
+      <option name="closed" value="true" />
+      <created>1763075310016</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1763075310016</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated README">
+      <option name="closed" value="true" />
+      <created>1763075472302</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1763075472302</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added JUnit test cases for Account class for all methods, constructors and validation with edge cases.">
+      <option name="closed" value="true" />
+      <created>1763077304184</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1763077304184</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated README with completed Account class unit tests.">
+      <option name="closed" value="true" />
+      <created>1763077563769</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1763077563770</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated README">
+      <option name="closed" value="true" />
+      <created>1763136495129</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1763136495129</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Doc: Updated README from new dev branch with status updates">
+      <option name="closed" value="true" />
+      <created>1763137002952</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1763137002952</updated>
+    </task>
+    <task id="LOCAL-00037" summary="v2 OOP Refactor - complete. Added Account, ATMInterface, ATMSystem and MenuOption - Updated README">
+      <option name="closed" value="true" />
+      <created>1763247486678</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1763247486678</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Merge - v2 OOP Refactor - Updated README">
+      <option name="closed" value="true" />
+      <created>1763249514966</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1763249514966</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated Dockerfile for refactored file system - for local server demo video">
+      <option name="closed" value="true" />
+      <created>1763251108558</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1763251108558</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Updated Dockerfile for refactored file system - for local server demo video">
+      <option name="closed" value="true" />
+      <created>1763253100886</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1763253100886</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Updated README with new demo video for refactored program">
+      <option name="closed" value="true" />
+      <created>1763254064465</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1763254064465</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix: Corrected all dockerfile image names" />
+    <MESSAGE value="Fix: Add a DNS flag to docker build command." />
+    <MESSAGE value="Fix: Correct dockerfile images and jenkinsfile build command" />
+    <MESSAGE value="Fix: Correct dockerfile images" />
+    <MESSAGE value="Fix: Changed eclipse build/run images Dockerfile" />
+    <MESSAGE value="Updated jenkinsfile" />
+    <MESSAGE value="Updated dockerfile" />
+    <MESSAGE value="Updated dockerfile for correct path src" />
+    <MESSAGE value="Fix: run jenkins interactive mode to support scanner" />
+    <MESSAGE value="Updated README.md for state of build" />
+    <MESSAGE value="Update pipeline to only build image" />
+    <MESSAGE value="updated build for console running in browser" />
+    <MESSAGE value="Fix: updated build for console running in browser" />
+    <MESSAGE value="Fix: different build image for console running in browser" />
+    <MESSAGE value="Updated README with working video demo link of program in local terminal" />
+    <MESSAGE value="Updated README with intent for REST API implementation" />
+    <MESSAGE value="-Dev- Added Account class and updated README" />
+    <MESSAGE value="Added JUnit test cases for Account class for all methods, constructors and validation with edge cases." />
+    <MESSAGE value="Updated README with completed Account class unit tests." />
+    <MESSAGE value="Updated README" />
+    <MESSAGE value="Doc: Updated README from new dev branch with status updates" />
+    <MESSAGE value="v2 OOP Refactor - complete. Added Account, ATMInterface, ATMSystem and MenuOption - Updated README" />
+    <MESSAGE value="Merge - v2 OOP Refactor - Updated README" />
+    <MESSAGE value="Updated Dockerfile for refactored file system - for local server demo video" />
+    <MESSAGE value="Updated README with new demo video for refactored program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with new demo video for refactored program" />
+  </component>
+</project>

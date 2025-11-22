@@ -1,15 +1,16 @@
 # --- ATMMachine Java Project ---
 
-*Updated 22 Nov 25*
+*Updated Nov 25*
 
-ATM Banking System - *STATUS: IN PROGRESS*
-This version is being refactored from commandline to a spring Boot REST API. Previous version is available in '
-legacy_backup/'.
+This is a simulated ATM bank machine, developed in Java, as part of my M.Sc. Software Development degree course.
+
+It was previously created in class, but I'm now using it to test my CI/CD linux server
+pipeline. I will be adding further revisions to the program using git control and developing the ATM as I learn more in
+the Java programming module.
 
 **Video Demo:** https://youtu.be/Y_87BCSaLD4
 
 ##### Tech stack:
-
 - Java, IntelliJ IDEA
 - Linux network server deployment
 - Spring Boot, Gradle _(future implementation)_
@@ -46,9 +47,9 @@ Default PIN is 1234 and account balance is £100.
     - [x] Create a separate class for the ATM system — separate main method.
 - [ ] Add a back button to the menu system to return to the previous menu.
 - [ ] Creating JUnit tests.
-    - [x] Unit tests for Account class.
-    - [ ] Unit tests for ATM class.
-    - [ ] Unit tests for ATMMachine class.
+  - [x] Unit tests for Account class.
+  - [ ] Unit tests for ATM class.
+  - [ ] Unit tests for ATMMachine class.
 - [ ] More robust error handling for edge cases like negative balance, invalid input, etc.
     - [x] Added error handling for negative balance.
     - [x] Added error fix for null exception in menu options.
