@@ -1,9 +1,14 @@
 package com.davidk.atm_banking.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.ExampleObject;
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import com.davidk.atm_banking.model.Account;
 import com.davidk.atm_banking.service.BankingService;
 import com.davidk.atm_banking.repository.AccountRepository;
 import org.springframework.web.bind.annotation.*;
+
 import java.math.BigDecimal;
 
 @RestController
@@ -18,9 +23,22 @@ public class ATMController {
         this.repo = repo;
     }
 
-    // 1. Create Account (For setup)
+    // 1. Create Account
+    @Operation(summary = "Create a new account", description = "Creates a new bank account. ID is generated automatically.")
+    @RequestBody(
+            description = "Account creation data",
+            content = @Content(
+                    mediaType = "application/json",
+                    // This 'examples' block OVERRIDES the auto-generated "id: 0" json
+                    examples = @ExampleObject(
+                            name = "New Account",
+                            value = "{ \"pin\": 1234, \"balance\": 100.00 }"
+                    )
+            )
+    )
+
     @PostMapping("/accounts")
-    public Account create(@RequestBody Account account) {
+    public Account create(@org.springframework.web.bind.annotation.RequestBody Account account) {
         return repo.save(account);
     }
 
